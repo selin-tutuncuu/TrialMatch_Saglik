@@ -1,0 +1,19 @@
+{
+  "relationships": [
+    {"subject": "breast cancer", "predicate": "has_alias", "object": "meme kanseri"},
+    {"subject": "her2", "predicate": "has_alias", "object": "human epidermal growth factor receptor 2"},
+    {"subject": "brca1", "predicate": "has_alias", "object": "breast cancer 1 gene"},
+    {"subject": "brca2", "predicate": "has_alias", "object": "breast cancer 2 gene"},
+    {"subject": "trastuzumab", "predicate": "is_a", "object": "anti-her2 therapy"},
+    {"subject": "pertuzumab", "predicate": "is_a", "object": "anti-her2 therapy"},
+    {"subject": "ado-trastuzumab emtansine", "predicate": "is_a", "object": "anti-her2 therapy"},
+    {"subject": "trastuzumab deruxtecan", "predicate": "is_a", "object": "anti-her2 therapy"},
+    {"subject": "her2", "predicate": "biomarker_for", "object": "breast cancer"},
+    {"subject": "brca1", "predicate": "biomarker_for", "object": "breast cancer"},
+    {"subject": "brca2", "predicate": "biomarker_for", "object": "breast cancer"},
+    {"subject": "tamoxifen", "predicate": "is_a", "object": "endocrine therapy"},
+    {"subject": "letrozole", "predicate": "is_a", "object": "endocrine therapy"},
+    {"subject": "anastrozole", "predicate": "is_a", "object": "endocrine therapy"},
+    {"subject": "exemestane", "predicate": "is_a", "object": "endocrine therapy"}
+  ]
+}

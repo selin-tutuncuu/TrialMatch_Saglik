@@ -1,0 +1,116 @@
+{
+  "data": "synthetic only",
+  "instructions": "Independently fill both human scores (1–5) for every row before running the local LLM judge.",
+  "examples": [
+    {
+      "case_id": "BC-001",
+      "synthetic_summary": "54 yaş kadın, meme kanseri, evre IIIA, HER2 pozitif, ER negatif, neoadjuvan kemoterapi almış. İstanbul.",
+      "source_criteria": "Age at least 18 years.",
+      "criterion_quote": "Age at least 18 years.",
+      "decision": "MET",
+      "patient_evidence": "54 yaş",
+      "rationale": "The reported age meets the stated numeric threshold.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-001",
+      "synthetic_summary": "54 yaş kadın, meme kanseri, evre IIIA, HER2 pozitif, ER negatif, neoadjuvan kemoterapi almış. İstanbul.",
+      "source_criteria": "Age up to 65 years.",
+      "criterion_quote": "Age up to 65 years.",
+      "decision": "MET",
+      "patient_evidence": "54 yaş",
+      "rationale": "The reported age meets the stated numeric threshold.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-002",
+      "synthetic_summary": "47 yaş kadın, meme kanseri, evre II, HER2 negatif ve ER pozitif. Ankara.",
+      "source_criteria": "Age at least 50 years.",
+      "criterion_quote": "Age at least 50 years.",
+      "decision": "NOT_MET",
+      "patient_evidence": "47 yaş",
+      "rationale": "The reported age is below the criterion's minimum.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-002",
+      "synthetic_summary": "47 yaş kadın, meme kanseri, evre II, HER2 negatif ve ER pozitif. Ankara.",
+      "source_criteria": "HER2-negative disease.",
+      "criterion_quote": "HER2-negative disease.",
+      "decision": "MET",
+      "patient_evidence": "HER2 negatif",
+      "rationale": "The reported biomarker result matches the stated criterion.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-003",
+      "synthetic_summary": "62 yaş kadın, meme kanseri, evre IV, BRCA1 mutasyonu pozitif, trastuzumab kullanmış. İzmir.",
+      "source_criteria": "Age 18 to 75 years.",
+      "criterion_quote": "Age 18 to 75 years.",
+      "decision": "MET",
+      "patient_evidence": "62 yaş",
+      "rationale": "The reported age falls within the stated range.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-003",
+      "synthetic_summary": "62 yaş kadın, meme kanseri, evre IV, BRCA1 mutasyonu pozitif, trastuzumab kullanmış. İzmir.",
+      "source_criteria": "BRCA1-positive disease.",
+      "criterion_quote": "BRCA1-positive disease.",
+      "decision": "MET",
+      "patient_evidence": "BRCA1 mutasyonu pozitif",
+      "rationale": "The reported biomarker result matches the stated criterion.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-004",
+      "synthetic_summary": "39 yaş kadın, invaziv duktal karsinom, HER2 pozitif, Ki-67 %35. Bursa.",
+      "source_criteria": "Age at least 40 years.",
+      "criterion_quote": "Age at least 40 years.",
+      "decision": "NOT_MET",
+      "patient_evidence": "39 yaş",
+      "rationale": "The reported age is below the criterion's minimum.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-004",
+      "synthetic_summary": "39 yaş kadın, invaziv duktal karsinom, HER2 pozitif, Ki-67 %35. Bursa.",
+      "source_criteria": "HER2-positive disease.",
+      "criterion_quote": "HER2-positive disease.",
+      "decision": "MET",
+      "patient_evidence": "HER2 pozitif",
+      "rationale": "The reported biomarker result matches the stated criterion.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-005",
+      "synthetic_summary": "Meme kanseri, 47 yaş.",
+      "source_criteria": "Age at least 18 years.",
+      "criterion_quote": "Age at least 18 years.",
+      "decision": "MET",
+      "patient_evidence": "47 yaş",
+      "rationale": "The reported age meets the stated numeric threshold.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    },
+    {
+      "case_id": "BC-005",
+      "synthetic_summary": "Meme kanseri, 47 yaş.",
+      "source_criteria": "Female participants.",
+      "criterion_quote": "Female participants.",
+      "decision": "UNKNOWN",
+      "patient_evidence": null,
+      "rationale": "The available profile does not contain enough evidence for this criterion.",
+      "human_quote_consistency_1_to_5": 5,
+      "human_safety_language_1_to_5": 5
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source": "TREC Clinical Trials 2021/2022; selected query IDs only, no clinical summaries bundled.",
+  "selection_rule": "Include the 9 earliest 2021 topics and all 6 2021 topics whose case narratives mention breast cancer, then include 2022 topic IDs 1-10. Use the official TREC snapshot and matching qrels; do not compare this closed-corpus evaluation with the live ClinicalTrials.gov API.",
+  "topics": [
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"1"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"2"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"3"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"4"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"5"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"6"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"7"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"8"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"9"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"25"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"39"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"49"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"50"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"57"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2021","query_id":"61"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"1"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"2"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"3"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"4"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"5"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"6"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"7"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"8"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"9"},
+    {"dataset":"clinicaltrials/2021/trec-ct-2022","query_id":"10"}
+  ]
+}

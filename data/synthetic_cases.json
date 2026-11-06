@@ -1,0 +1,27 @@
+[
+  {
+    "case_id": "BC-001",
+    "summary": "54 yaş kadın, meme kanseri, evre IIIA, HER2 pozitif, ER negatif, neoadjuvan kemoterapi almış. İstanbul.",
+    "source": "Bu dosya için proje ekibince yazılmış, tamamen kurgusal eğitim örneğidir."
+  },
+  {
+    "case_id": "BC-002",
+    "summary": "47 yaş kadın, meme kanseri, evre II, HER2 negatif ve ER pozitif. Ankara.",
+    "source": "Bu dosya için proje ekibince yazılmış, tamamen kurgusal eğitim örneğidir."
+  },
+  {
+    "case_id": "BC-003",
+    "summary": "62 yaş kadın, meme kanseri, evre IV, BRCA1 mutasyonu pozitif, trastuzumab kullanmış. İzmir.",
+    "source": "Bu dosya için proje ekibince yazılmış, tamamen kurgusal eğitim örneğidir."
+  },
+  {
+    "case_id": "BC-004",
+    "summary": "39 yaş kadın, invaziv duktal karsinom, HER2 pozitif, Ki-67 %35. Bursa.",
+    "source": "Bu dosya için proje ekibince yazılmış, tamamen kurgusal eğitim örneğidir."
+  },
+  {
+    "case_id": "BC-005",
+    "summary": "Meme kanseri, 47 yaş.",
+    "source": "Bu dosya için proje ekibince yazılmış, tamamen kurgusal eğitim örneğidir."
+  }
+]

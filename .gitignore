@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+data/cache/
+data/eval/downloads/
+data/eval/trec_2021.json
+data/eval/trec_2022.json
+reports/
+*.py[cod]

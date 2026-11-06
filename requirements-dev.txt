@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# Test and TREC data preparation are optional and can download large datasets.
+pytest>=8,<9
+ir_datasets>=0.5.8,<0.6
+

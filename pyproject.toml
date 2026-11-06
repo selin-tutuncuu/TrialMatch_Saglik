@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trialmatch-saglik"
+version = "0.1.0"
+description = "Privacy-first clinical trial prescreening prototype for education"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.27,<1",
+  "pydantic>=2.7,<3",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.36,<2", "mcp>=1.2,<2"]
+test = ["pytest>=8,<9"]
+evaluation = ["ir_datasets>=0.5.8,<0.6"]
+semantic = ["sentence-transformers>=3.0,<6"]
+
+[tool.setuptools.packages.find]
+include = ["trialmatch*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
